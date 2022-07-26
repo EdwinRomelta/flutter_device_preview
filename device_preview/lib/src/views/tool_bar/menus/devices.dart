@@ -178,7 +178,7 @@ class PlatformSelector extends StatelessWidget {
                 .withOpacity(isCustomSelected ? 0.4 : 0.1),
             foregroundColor: toolBarStyle.foregroundColor
                 .withOpacity(isCustomSelected ? 1.0 : 0.8),
-            icon: Icons.phonelink_setup_outlined,
+            icon: Icons.phonelink,
             onTap: () {
               if (!isCustomSelected) {
                 final state = context.read<DevicePreviewStore>();
